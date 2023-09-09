@@ -8,7 +8,7 @@ Each Microfrontend represents a specific functionality or component.
 This project includes the following Microfrontends:
 
 - **Main Application:** The main application represents the primary web application that integrates the other Microfrontends.
-
+- **Advert Application:** ad application is the application that manages advertisements distributed on pages in the main application
 
 ## Getting Started
 
