@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./index.css";
-import Header from "./layout/Header";
+import Header from "main/Header";
 
 const App = () => (
   <div className="container">

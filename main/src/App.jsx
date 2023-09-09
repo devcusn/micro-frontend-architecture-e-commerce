@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Header from "main/Header"
 import "./index.css";
+import Header from "./components/Header";
 
 const App = () => (
   <div className="container">
-     <Header/>
+    <Header />
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
