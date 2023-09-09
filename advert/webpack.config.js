@@ -44,7 +44,10 @@ module.exports = (_, argv) => ({
       name: "advert",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./HorizontalAdvert": "./src/components/HorizontalAdvert/index.tsx",
+        "./VerticalAdvert": "./src/components/VerticalAdvert/index.tsx",
+      },
       shared: {
         ...deps,
         react: {
